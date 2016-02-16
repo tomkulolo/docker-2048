@@ -11,4 +11,4 @@ COPY nginx.8880.conf /etc/nginx/nginx.8880.conf
 
 EXPOSE 80
 
-CMD ["nginx", "-c", "/etc/nginx/nginx.log.conf"]
+CMD ["nginx", "-c", "/etc/nginx/nginx.8880.conf"]
