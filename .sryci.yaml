@@ -4,18 +4,3 @@ build:
   image: alpine:latest
   commands:
     - echo 'done'
-publish:
-  docker:
-    username: blackicebird
-    password: youman
-    email: blackicebird@126.com
-    repo: blackicebird/hello-2048
-    tag: 
-      - latest
-    load: docker/hello-2048.tar
-    save:
-      destination: docker/hello-2048.tar
-      tag: latest
-cache:
-  mount:
-    - docker/hello-2048.tar
