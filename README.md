@@ -41,3 +41,5 @@ Base on nginx
 If you run docker with boot2docker on Mac or Windows, the URL should be:
  
     http://192.168.59.103:8080
+    
+just up
