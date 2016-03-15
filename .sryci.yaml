@@ -8,7 +8,7 @@ build:
 publish:
   docker:
     username: blackicebird
-    password: youman
+    password: comeon
     email: blackicebird@126.com
     repo: blackicebird/hello-2048
     tag: 
