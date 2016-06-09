@@ -1,5 +1,4 @@
-FROM alpine:latest
-
+FROM alpine:3.2
 MAINTAINER alex <alexwhen@gmail.com> 
 
 RUN apk --update add nginx
