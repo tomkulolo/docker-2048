@@ -11,7 +11,7 @@ Base on alpine
 Base on nginx
 
 
-#dockerfile
+#dockerfile  for alpine is updated, change the baseimages to "alpine:3.2" 
 
     FROM alpine:latest
 
