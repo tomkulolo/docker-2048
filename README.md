@@ -6,9 +6,10 @@ a smaller docker version of 2048
 
 Base on gabrielecirulli/2048(https://github.com/gabrielecirulli/2048)
 
-Base on alpine
+Base on alpine  
 
 Base on nginx
+
 
 #dockerfile
 
@@ -26,8 +27,8 @@ Base on nginx
 
 # run the docker container with your own build
 
-    git clone https://github.com/alexwhen/docker-2048.git
-    docker build -t "docker-2048" .
+    git clone https://github.com/tomkulolo/docker-2048.git
+    docker build -t docker-2048 .
     docker run -d -p 8080:80 docker-2048
 
 # run the docker container by pulling the image directly
@@ -41,5 +42,5 @@ Base on nginx
 If you run docker with boot2docker on Mac or Windows, the URL should be
  
     http://192.168.59.103:8080
-    
+#.sryci.yaml is unuserful for "docker build" just for drone     
 ...
